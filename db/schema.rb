@@ -14,10 +14,10 @@
 ActiveRecord::Schema.define(version: 20141007215738) do
 
   create_table "addresses", force: :cascade do |t|
-    t.string   "name",       limit: 255
-    t.string   "address",    limit: 255
-    t.string   "email",      limit: 255
-    t.string   "phone",      limit: 255
+    t.string   "name"
+    t.string   "address"
+    t.string   "email"
+    t.string   "phone"
     t.datetime "created_at"
     t.datetime "updated_at"
   end
