@@ -1,0 +1,31 @@
+<% if notice %>
+<p id="notice"><%= notice %></p>
+<% end %>
+
+<h1>Your Pragmatic Catalog</h1>
+
+<% cache ['store', Product.latest] do %>
+  <% @products.each do |product| %>
+
+    <% cache ['entry', product] do %>
+      <% if (product.online_stock > 0) or (product.towson_stock > 0) %>
+      <div class="entry">
+        <%= image_tag(product.image_url) %>
+        <h3><%= product.title %></h3>
+        <div class="description" ><%= sanitize(product.description) %></div>
+        <div class="price_line">
+          <span class="price"><%= number_to_currency(product.price) %></span>
+        </div>
+        <% if (product.online_stock <= 0 and product.towson_stock > 0) %>
+            <p class="stock_line">Available in-store only, <%= product.towson_stock %> left</p>
+        <% elsif (product.towson_stock <= 0 and product.online_stock > 0) %>
+            <p class="stock_line">Available online only, <%= product.online_stock %> left</p>
+        <% else %>
+          <div class="stock_line">Towson: <%= product.towson_stock %></div>
+          <div class="stock_line">Online: <%= product.online_stock %></div>
+        <%end%>
+      </div>
+      <% end %>
+    <% end %>
+  <% end %>
+<% end %>

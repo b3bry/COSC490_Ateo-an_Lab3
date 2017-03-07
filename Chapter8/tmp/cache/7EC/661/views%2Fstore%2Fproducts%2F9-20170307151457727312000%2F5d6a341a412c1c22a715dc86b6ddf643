@@ -1,0 +1,39 @@
+o: ActiveSupport::Cache::Entry:@valueI"×      <div class="entry">
+        <img alt="Thunder cat 1 1 s 307x512" src="http://cdn8.staztic.com/app/a/4400/4400219/thunder-cat-1-1-s-307x512.jpg" />
+        <h3>Cakeadsfasdf</h3>
+        a cake
+        <div class="price_line">
+          <span class="price">$9.99</span>
+        </div>
+      </div>
+      <div class="entry">
+        <img alt="Thunder cat 1 1 s 307x512" src="http://cdn8.staztic.com/app/a/4400/4400219/thunder-cat-1-1-s-307x512.jpg" />
+        <h3>Carrotasdfasdfasdf</h3>
+        a carrot
+        <div class="price_line">
+          <span class="price">$10.99</span>
+        </div>
+      </div>
+      <div class="entry">
+        <img alt="Cs" src="/assets/cs.jpg" />
+        <h3>CoffeeScript</h3>
+        <p>
+        CoffeeScript is JavaScript done right. It provides all of JavaScript's
+	functionality wrapped in a cleaner, more succinct syntax. In the first
+	book on this exciting new language, CoffeeScript guru Trevor Burnham
+	shows you how to hold onto all the power and flexibility of JavaScript
+	while writing clearer, cleaner, and safer code.
+      </p>
+        <div class="price_line">
+          <span class="price">$36.00</span>
+        </div>
+      </div>
+      <div class="entry">
+        <img alt="Thunder cat 1 1 s 307x512" src="http://cdn8.staztic.com/app/a/4400/4400219/thunder-cat-1-1-s-307x512.jpg" />
+        <h3>Cokefasdfasd</h3>
+        a can of coke
+        <div class="price_line">
+          <span class="price">$19.99</span>
+        </div>
+      </div>
+:ET:@created_atf1488899924.8858619:@expires_in0

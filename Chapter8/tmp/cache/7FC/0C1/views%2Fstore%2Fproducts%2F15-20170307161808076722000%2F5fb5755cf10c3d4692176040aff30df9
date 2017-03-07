@@ -1,0 +1,34 @@
+o: ActiveSupport::Cache::Entry:@valueI"{
+      <div class="entry">
+        <img alt="Thunder cat 1 1 s 307x512" height="5" src="http://cdn8.staztic.com/app/a/4400/4400219/thunder-cat-1-1-s-307x512.jpg" width="5" />
+        <h3>Cakeadsfasdf</h3>
+        This is a description A very long description about a very long description which this is
+        <div class="price_line">
+          <span class="price">$9.99</span>
+        </div>
+        <div>Towson: 0</div>
+        <div>Online: 1</div>
+      </div>
+
+      <div class="entry">
+        <img alt="Thunder cat 1 1 s 307x512" height="5" src="http://cdn8.staztic.com/app/a/4400/4400219/thunder-cat-1-1-s-307x512.jpg" width="5" />
+        <h3>Carrotasdfasdfasdf</h3>
+        This is a description A very long description about a very long description which this is
+        <div class="price_line">
+          <span class="price">$10.99</span>
+        </div>
+        <div>Towson: 1</div>
+        <div>Online: 0</div>
+      </div>
+
+      <div class="entry">
+        <img alt="Thunder cat 1 1 s 307x512" height="5" src="http://cdn8.staztic.com/app/a/4400/4400219/thunder-cat-1-1-s-307x512.jpg" width="5" />
+        <h3>Cokefasdfasd</h3>
+        This is a description A very long description about a very long description which this is
+        <div class="price_line">
+          <span class="price">$19.99</span>
+        </div>
+        <div>Towson: 0</div>
+        <div>Online: 0</div>
+      </div>
+:ET:@created_atf1488903617.355592:@expires_in0
